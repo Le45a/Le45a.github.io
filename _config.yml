@@ -101,4 +101,7 @@ theme: landscape
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: 'git'
+  repo: 'https://github.com/Le45a/Le45a.github.io.git'
+  branch: ['hexo-test']
+  message: 'deploy'
