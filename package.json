@@ -9,10 +9,14 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "gray-matter": "^4.0.3",
     "hexo": "^8.1.1",
     "next": "15.0.3",
+    "next-mdx-remote": "^5.0.0",
     "react": "19.0.0-rc-66855b96-20241106",
-    "react-dom": "19.0.0-rc-66855b96-20241106"
+    "react-dom": "19.0.0-rc-66855b96-20241106",
+    "rehype-highlight": "^7.0.2",
+    "remark-gfm": "^4.0.1"
   },
   "devDependencies": {
     "@types/node": "^20",
